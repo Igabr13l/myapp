@@ -32,7 +32,206 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.Card {
+  text-align: center;
+  width: 120px;
+  height: 200px;
+  margin: 100px 0px 20px;
+}
+
+.arriba {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+}
+
+.abajo {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+}
+
+.primero {
+  background-color: red;
+  width: 50vw;
+}
+
+.segundo {
+  background-color: blueviolet;
+  width: 50vw;
+}
+
+.tercero {
+  background-color: greenyellow;
+  width: 50vw;
+}
+
+.cuarto {
+  background-color: burlywood;
+  width: 50vw;
+}
+
+.a{
+  background-color: azure;
+}
+.b{
+  background-color: blanchedalmond;
+}
+.c{
+  background-color: cadetblue;
+}
+
+.d{
+  background-color: blue;
+}
+.e{
+  background-color: violet;
+}
+.f{
+  background-color: green;
+}
+
+.g{
+  background-color: grey;
+}
+.h{
+  background-color: blanchedalmond;
+}
+.i{
+  background-color: cadetblue;
+}
+
+.elementos{
+  width: 33.34%;
+}
+
+.grid{
+  display: grid;
+  height: 100%;
+  grid-template-columns: 33.33% 33.33% 33.33%;
+  grid-template-rows: 33.34% 33.33% 33.33%;
+}
+
+.k{
+  background-color: pink;
+}
+.l{
+  background-color: yellowgreen;
+}
+.m{
+  background-color: aquamarine;
+}
+
+.n{
+  background-color: blue;
+}
+.o{
+  background-color: violet;
+}
+.p{
+  background-color: yellow;
+}
+
+.q{
+  background-color: grey;
+}
+.r{
+  background-color: blanchedalmond;
+}
+.s{
+  background-color: cadetblue;
+}
+
+.sub-2{
+  width: 100%;
+  height: 33.34%;
+}
+
+.element{
+  width: 33.33%;
+  height: 33.33%;
+  display: inline-block;
+}
+
+.first{
+  height: 33.33%;
+  width: 100%;
+  position:relative;
+}
+
+div.first .element{
+  position: absolute;
+  width: 33.33%;
+}
+
+div.cuarto .element{
+  height: 33.33%;
+}
+
+.one{
+  left: 0%;
+  background-color: red;
+}
+
+.two{
+  left: 33.33%;
+  background-color: yellow;
+}
+
+.three{
+  left: 66.66%;
+  background-color: blue;
+}
+
+.four{
+  background-color: #282c34;
+}
+
+.five{
+  background-color: #61dafb;
+}
+.six{
+  background-color: bisque;
+}
+.seven{
+  background-color: bisque;
+}
+
+.eight{
+  background-color: burlywood;
+}
+
+.nine{
+  background-color: darkblue;
+}
+
+div.grid div:nth-child(2n) {
+  background-color: black;
+}
+.App div div  div:nth-child(2n) {
+  background-color: red;
+}
+
+/* .App div div  div:nth-child(2n+1) {
+  background-color: greenyellow;
+} */
+
+.primero{
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  width: 50%;
+  flex-wrap: wrap;
+}
+
+div.primero > div {
+  height: 33.33%;
+  width: 33.33%;
+  color: black;
 }
